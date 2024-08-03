@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+    body {
+        height: 96vh;
+        position: relative;
+    }
+
+    main {
+        display: flex;
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+
+        margin: 0px;
+
+        transform: translate(-50%, -50%);
+    }
+
+    article {
+        flex: auto;
+
+        width: 310px;
+        padding: 50px;
+        margin: 0px;
+        padding-bottom: 65px;
+    }
+
+    .sedans {
+        border-radius: 5px 0px 0px 5px;
+    }
+
+    .luxury {
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    h1 {
+        margin: 25px 0px;
+    }
+
+    p {
+        margin-bottom: 90px;
+    }
+}
